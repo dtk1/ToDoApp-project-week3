@@ -1,0 +1,100 @@
+.auth-form-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #f9f9f9;
+  }
+  
+  .auth-form {
+    padding: 2rem;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 360px;
+    box-sizing: border-box;
+  }
+  
+  
+  .auth-form h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-family: 'Roboto', Arial, sans-serif;
+  }
+  
+  .auth-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+  }
+  
+  
+  .auth-form input {
+    padding: 0.4rem 0.75rem;
+    font-size: 0.95rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    height: 38px;
+    outline: none;
+    transition: border 0.2s, box-shadow 0.2s;
+    background-color: #fff;
+    margin-top: 15px;
+  }
+  
+  
+  .auth-form input:focus {
+    border-color: #7c3aed; /* фиолетовая граница */
+    box-shadow: 0 0 0 2px rgba(124, 58, 237, 0.2);
+  }
+  
+  .auth-form button {
+    width: 85%;
+    padding: 0.7rem;
+    font-size: 1rem;
+    margin:  0;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    margin-bottom: 20px;
+  }
+  
+  
+  .auth-form button:hover {
+    background: #555;
+  }
+  
+  .switch-link {
+    text-align: center;
+    margin-top: 1rem;
+    font-family: 'Roboto', Arial, sans-serif;
+  }
+  
+  .error-msg {
+    color: #e53935;
+    font-size: 0.9rem;
+    text-align: center;
+
+  }
+  
+  .success-msg {
+    color: #2e7d32;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+  .btn-logout{
+    margin: 0;
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  }

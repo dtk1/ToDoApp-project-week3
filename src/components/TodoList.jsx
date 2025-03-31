@@ -8,7 +8,7 @@ export default function TodoList({todos,view,updateTodoStatus, deleteTodo}) {
         <div className='todo-list'>
             {filteredTodos.map((todo) =>(
                 <TodoItem 
-                key={todo.id}
+                key={todo._id}
                 todo={todo}
                 updateTodoStatus={updateTodoStatus}
                 deleteTodo={deleteTodo}

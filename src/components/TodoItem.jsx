@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import TICK from '../assets/babuin.svg'
 import TRASH from '../assets/trash.svg'
 function TodoItem({ todo, updateTodoStatus, deleteTodo }) {
-  const { id, text, status } = todo;
+  const { _id: id, text, status } = todo;
   const [isModalOpen, setIsModalOpen] = useState(false); 
 
   const toggleModal = () => {
